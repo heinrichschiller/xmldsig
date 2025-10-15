@@ -63,7 +63,7 @@ final class XmlSigner
      *
      * @return string The signed XML as string
      */
-    public function signDocument(DOMDocument $document, DOMElement $element = null): string
+    public function signDocument(DOMDocument $document, ?DOMElement $element = null): string
     {
         $element = $element ?? $document->documentElement;
 
