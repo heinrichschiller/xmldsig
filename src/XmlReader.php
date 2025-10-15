@@ -21,7 +21,7 @@ final class XmlReader
      *
      * @throws UnexpectedValueException
      *
-     * @return DOMNode The first item
+     * @return DOMNameSpaceNode|DOMNode The first item
      */
     public function queryDomNode(DOMXPath $xpath, string $expression, DOMNode $contextNode): DOMNameSpaceNode|DOMNode
     {
