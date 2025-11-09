@@ -18,7 +18,7 @@ use Selective\XmlDSig\XmlSigner;
  *
  * @coversDefaultClass \Selective\XmlDSig\XmlSigner
  */
-#[CoversClass(\Selective\XmlDSig\XmlSigner::class)]
+#[CoversClass(XmlSigner::class)]
 final class XmlSignatureTest extends TestCase
 {
     /**
