@@ -2,6 +2,7 @@
 
 namespace Selective\XmlDSig\Test;
 
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use Selective\XmlDSig\Algorithm;
@@ -17,6 +18,7 @@ use Selective\XmlDSig\XmlSigner;
  *
  * @coversDefaultClass \Selective\XmlDSig\XmlSigner
  */
+#[CoversClass(\Selective\XmlDSig\XmlSigner::class)]
 final class XmlSignatureTest extends TestCase
 {
     /**
